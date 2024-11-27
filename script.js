@@ -3,7 +3,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
 
-      fetch('https://script.google.com/macros/s/AKfycbwI50jgon8nZhh5X96n9nj_flnVXE8HEe82WTdmu7aMIum47AiXC9BFL864ZTbvj5-bEg/exec', {
+      fetch('https://script.google.com/macros/s/AKfycbwI50jgon8nZhh5X96n9nj_flnVXE8HEe82WTdmu7aMIum47AiXC9BFL864ZTbvj5-bEg', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
