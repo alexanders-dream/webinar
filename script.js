@@ -11,7 +11,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
   messageElement.textContent = 'Submitting your registration...';
 
   // Make a POST request to the Google Apps Script Web App
-  fetch('https://script.google.com/macros/s/AKfycbwI50jgon8nZhh5X96n9nj_flnVXE8HEe82WTdmu7aMIum47AiXC9BFL864ZTbvj5-bEg/exec', { // Replace with your actual deployment URL
+  fetch('https://script.google.com/macros/s/AKfycbydJUWBruD9g-oXEFVgJ8ijXYprt1FhWipilo2zdEKZLppQMUvlBcViKJaCRKq_kVeC7w/exec', { // Replace with your actual deployment URL
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
